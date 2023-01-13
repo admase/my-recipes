@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Odin Recipes</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+        }
+
+        .content-box {
+            text-align: center;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin-top: 8rem;
+            font-size: 3rem;
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+
+        a {
+            text-decoration: none;
+            color: peru;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: #000000;
+        }
+
+        #chefHat {
+            width: 200px;
+            height: 200px;
+            background: url('./recipes/img/chef-hat.jpg') no-repeat center center / cover;
+        }
+
+        .nav {
+            margin-top: 3.5rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="content-box">
+        <div id="chefHat">
+            <h1 class="masthead">Odin Recipes</h1>
+        </div>
+        <div class="nav d-flex flex-column align-items-center justify-content-center">
+            <a href="./recipes/kaluapig.html"><strong>&middot; Kalua Pig</strong></a>
+            <a href="./recipes/poke.html"><strong>&middot; Poke &middot;</strong></a>
+            <a href="./recipes/locomoco.html"><strong>Loco Moco &middot;</strong></a>
+        </div>
+    </div>
+</body>
+
+</html>
